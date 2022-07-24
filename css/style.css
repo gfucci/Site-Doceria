@@ -252,3 +252,56 @@ form input[type=submit]:hover {
     background-image: url('../img/galeria12.jpg');
     margin-right: 0;
 }
+
+/* CONTATO */
+
+#form_contato {
+    width: 500px;
+}
+
+#form_contato input[type=text],
+#form_contato input[type=email],
+#form_contato textarea {
+    display: block;
+    border: 1px solid #006599;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#form_contato input[type=text]:focus,
+#form_contato input[type=email]:focus,
+#form_contato textarea:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-color: #2790C6;
+}
+
+#form_contato textarea {
+    height: 150px;
+}
+
+#form_contato ::placeholder {
+    color: #2790C6;
+}
+
+#form_contato input[type=submit] {
+    margin-left: 0;
+    width: 180px;
+    font-size: 16px;
+}
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+    padding-top: 100px;
+    color: #006599;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+}
