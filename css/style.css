@@ -149,3 +149,106 @@ form input[type=submit] {
 form input[type=submit]:hover {
     background-color: #27906C;
 }
+
+/*SESSAO SOBRE*/
+
+#sessao_sobrenos .mini_banner {
+    float: right;
+    margin-right: 50px;
+    background-image: url('../img/banner4.jpg');
+}
+
+#sessao_sobrenos .sessao_descricao {
+    position: absolute;
+    left: 25px;
+    width: calc(100% - 400px);
+}
+
+/* GALERIAS */
+
+.banner_galeria {
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    height: 200px;
+}
+
+#sessao_doces1,
+#sessao_doces2,
+#sessao_doces3 {
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.doces_img1 {
+    width: 18.8%;
+    margin-left: .5%;
+    margin-right: .5%;
+}
+
+#img1 {
+    margin-left: 0;
+    background-image: url('../img/galeria1.jpg');
+}
+
+#img2 {
+    background-image: url('../img/galeria2.jpg');
+}
+
+#img3 {
+    background-image: url('../img/galeria3.jpg');
+}
+
+#img4 {
+    background-image: url('../img/galeria4.jpg');
+}
+
+#img5 {
+    margin-right: 0;
+    background-image: url('../img/galeria5.jpg');
+}
+
+.doces_img2 {
+    width: 32.3%;
+    margin-left: .5%;
+    margin-right: .5%;
+}
+
+#img6 {
+    margin-left: 0;
+    background-image: url('../img/galeria6.jpg');
+}
+
+#img7 {
+    background-image: url('../img/galeria7.jpg');
+}
+
+#img8 {
+    background-image: url('../img/galeria8.jpg');
+    margin-right: 0;
+}
+
+.doces_img3 {
+    width: 23.9%;
+    margin-left: .5%;
+    margin-right: .5%;
+}
+
+#img9 {
+    margin-left: 0;
+    background-image: url('../img/galeria9.jpg');
+}
+
+#img10 {
+    background-image: url('../img/galeria10.jpg');
+}
+
+#img11 {
+    background-image: url('../img/galeria11.jpg');
+    margin-right: 0;
+}
+
+#img12 {
+    background-image: url('../img/galeria12.jpg');
+    margin-right: 0;
+}
